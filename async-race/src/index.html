@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="views">
+    <button class="button button-garage">Garage</button>
+    <button class="button button-winners">Winners</button>
+  </div>
+  <div class="actions">
+    <div class="cars-manage">
+      <form class="car-create">
+        <input type="text" name="create-car" id="car-name-create" class="inputs">
+        <input type="color" class="car-color-create">
+        <button class="button button-create">Create</button>
+      </form>
+      <div class="car-update">
+        <input type="text" name="" id="car-name-update" class="inputs" disabled>
+        <input type="color" class="car-color-update" disabled>
+        <button class="button button-update" disabled>Update</button>
+      </div>
+      <div class="car-generate">
+        <button class="button-generate">Generate cars</button>
+      </div>
+      <div class="race">
+        <button class="button button-race">Race</button>
+        <button class="button button-reset">Reset</button>
+      </div>
+    </div>
+    <div class="garage-page-nav">
+      <h1 class="title garage-title">Garage: 4</h1>
+      <h2 class="subtitle garage-subtitle">Page: 1</h2>
+      <button class="button garage-button-prev">Previous</button>
+      <button class="button garage-button-next">Next</button>
+    </div>
+    <div class="winners-page-nav hide">
+      <h1 class="title">winners: 4</h1>
+      <h2 class="subtitle">Page: 1</h2>
+      <button class="button winners-button-prev">Previous</button>
+      <button class="button winners-button-next">Next</button>
+    </div>
+  </div>
+  
+
+  <div class="garage"></div>
+  <div class="winners hide">
+    Winners' statistic will here.
+  </div>
+</body>
+</html>

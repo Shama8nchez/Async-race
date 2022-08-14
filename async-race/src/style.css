@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.views {
+  padding: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed grey;
+}
+
+.title {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.subtitle {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.cars-manage {
+  padding: 0 10px;
+}
+
+.car-create,
+.car-update {
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  height: 20px;
+}
+
+.car-generate {
+  margin-bottom: 10px;
+}
+
+.button-generate {
+  width: 100px;
+}
+
+.car {
+  padding: 10px;
+}
+
+.top-panel {
+  height: 40px;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.button {
+  margin-left: 20px;
+  width: 75px;
+}
+
+.animation-panel {
+  position: relative;
+  padding-top: 10px;
+  border-bottom: 2px solid grey;
+}
+
+.car-image {
+  width: 100px;
+}
+
+.finish {
+  position: absolute;
+  right: 150px;
+  top: 10px;
+  height: 40px;
+}
+
+.finish-flag {
+  display: block;
+  height: 36px;
+}
+
+.bottom-panel {
+  height: 40px;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
